@@ -1,5 +1,25 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1366px;
     font-family: sans-serif;
+    margin: auto;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.menu-item {
+    display: flex;
+    margin: 10px 10px;
+    justify-content: space-between;
+}
+.menu-item > li, a {
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .text {
@@ -9,16 +29,86 @@ body {
 }
 
 .headingTop {
+    max-width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }
+.why__learning {
+    max-width: 1140px;
+    max-height: 585px;
+}
+.container-card {
+    display: flex;
+    justify-content: space-between;
+}
+.start-career{
+    max-width: 495px;
+    
+}
 
+.footer {
+    background: forestgreen;
+}
+.heading-footer {
+    max-width: 340px;
+    font-size: 36px;
+}
+.contact-footer {
+    display: flex;
+    margin: 10px 10px;
+    justify-content: space-between;
+}
+.contact-footer > li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* For pagee contacts */
+.top-contacts {
+    max-width: 1366px;
+    margin: auto;
+    background: rgb(7, 239, 247);
+}
+.top-text {
+    margin: auto;
+    max-width: 780px;
+    max-height: 150px;
+}
+.top-heading {
+    text-align: center;
+    /* max-width: 780px; */
+    font-size: 64px;
+    color: #1F3F68;
+}
+.paragraph-top {
+    text-align: center;
+}
 .contact_us{
     font-weight: 500;
     font-size: 44px;
     text-align: center;
    
 }
+.feedback {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.adress_contacts {
+    max-width: 300px;
+    display: flexbox;
+    
+}
+.img {
+    max-width: 300px;
+    padding-left: 1px;
+}
+.adress_contacts > ol, ul > li {
+    list-style-type: none;
+}
+
 
 .headinngH3{
     font-size: 36px;
