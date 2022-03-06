@@ -9,98 +9,128 @@
 </head>
 <body>
     <!-- Header -->
-    <ul>
-        <li>
-         <a href="../index.html"> Home</a>
-        </li>
-        <li>
-         <a href="contacts.html">Contacts</a>
-        </li>
-      </ul>
-      <!-- Header -->
-      <!-- Body -->
-    <h1 class="headingTop">
-        Contacts
-    </h1>
-    <h2 class="contact_us">
-        Contact us
-    </h2>
-    <p class="text">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, eum.
-    </p>
-    <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png" alt="contacts" width="350px">
-    <h4 class="headingH4"> 
-        Adress  
-    </h4>
-    <p class="text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing.
-    </p>
-    <h4 class="headingH4">
-        Phone
-    </h4>
-    <ol>
-        <li>
-            <a href="tel:+67482932392">+67482932392</a>    
-        </li>
-        <li>
-            <a href="tel:+573212321">+573212321</a>
-        </li>
-    </ol>
-    <p class="text">
-        Online Service
-    </p>
-    <ul>
-        <li>
-            <a href="https://www.searchenginejournal.com/examples-contact-us-pages/378518/#close">Contact us</a><br>
-            <a href="mailto:contact@gmail.com">contact@gmail.com</a>
-        </li>
-        <li>
-            <a href="https://www.globalharmonization.net/contact">Globalizatiob</a><br>
-            <a href="mailto:contact@gmail.com">globalization@gmail.com</a>
-        </li>
-    </ul>
-    <h4 class="headingH4">
-        Send us message
-    </h4>
-    <form action="#">
-        <label for="fullname">Full name:</label>
-        <input class="inputText" type="text" id="fullname" name="fname" placeholder="VLad Cervac"><br><br>
-        <label for="mail">Email:</label>
-        <input class="inputText" type="mail" id="mail" name="mail" placeholder="cervacvlad32@gmail.com"><br><br>
-        <!-- <label for="textarea"></label> -->
-        <textarea 
-                class="inputText"
-                name="textarea" 
-                id="textarea" 
-                cols="30" 
-                rows="10"
-                placeholder="Message">
-        </textarea>
-        <button class="btn">Submmit</button>
-                <!-- Yandex maps -->
-        
-                <script 
-                    type="text/javascript" 
-                    charset="utf-8" 
-                    async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A03c29eb512fa86d27465033379c5a7326fd091dccd7f96702be2e270574c1709&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
-                </script>
-
-            <!-- End Yandex maps -->
-    </form>
+    <div class="header">
+        <!-- MEnu bar -->
+            <div class="menu__bar">
+                <ul>
+                    <li class="menu-item">
+                    <a href="../index.html"> Home</a>
+                    </li>
+                    <li class="menu-item">
+                    <a href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Menu bar -->
+            <!-- Contact us -->
+            <div class="main__tex">
+                <h1 class="headingTop">
+                    Contacts
+                </h1>
+                
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, eum.
+                </p>
+            </div>
+            <!-- Contact us -->
+    </div>
+    <!-- HEader -->
+    <!-- Contaacts -->
+    <div class="feedback">
+        <!-- Adres phone -->
+       <div class="adress_contacts">
+            <img src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png" alt="contacts" width="350px">
+            <h4 class="headingH4"> 
+                Adress  
+            </h4>
+            <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <h4 class="headingH4">
+                Phone
+            </h4>
+            <ol>
+                <li>
+                    <a href="tel:+67482932392">+67482932392</a>    
+                </li>
+                <li>
+                    <a href="tel:+573212321">+573212321</a>
+                </li>
+            </ol>
+            <p class="text">
+                Online Service
+            </p>
+            <ul>
+                <li>
+                    <a href="https://www.searchenginejournal.com/examples-contact-us-pages/378518/#close">Contact us</a><br>
+                    <a href="mailto:contact@gmail.com">contact@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://www.globalharmonization.net/contact">Globalizatiob</a><br>
+                    <a href="mailto:contact@gmail.com">globalization@gmail.com</a>
+                </li>
+            </ul>
+            <h4 class="headingH4">
+                Send us message
+            </h4>
+       </div>
+       <!-- Adress phone -->
+        <div class="form">
+            <form action="#">
+                <label for="fullname">Full name:</label>
+                <input class="inputText" type="text" id="fullname" name="fname" placeholder="VLad Cervac"><br><br>
+                <label for="mail">Email:</label>
+                <input class="inputText" type="mail" id="mail" name="mail" placeholder="cervacvlad32@gmail.com"><br><br>
+                <!-- <label for="textarea"></label> -->
+                <textarea 
+                        class="inputText"
+                        name="textarea" 
+                        id="textarea" 
+                        cols="30" 
+                        rows="10"
+                        placeholder="Message">
+                </textarea>
+                <button class="btn">Submmit</button>
+            </form>    
+        </div>
+    </div>         
+    <!-- Yandex maps -->
+        <div class="yande-maps">
+            <script 
+            type="text/javascript" 
+            charset="utf-8" 
+            async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A03c29eb512fa86d27465033379c5a7326fd091dccd7f96702be2e270574c1709&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
+        </script>
+        </div>
+    <!-- End Yandex maps -->
     <!-- Footer -->
-    <hr>
-      <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>
-          <a href="tel:+4733378901">+47 333 78 901</a>
-        </li>
-        <li>
-          <a href="mailto:cervacvlad32@gmail.com">cervacvlad32@gmail.com</a>
-        </li>
-      </ul>
-      <p class="text">
-        &#169 Все права защищены
-      </p>
-      <!-- Footer -->
+     <div class="footer">
+            <div class="start-career">
+                <h3 class="headinngH3">
+                    Start career in IT
+                </h3>
+                <p>
+                    You don’t need any specific knowledge to start this course.
+                </p> 
+            </div>
+        <hr>
+            <div class="contacts">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>
+                            <a href="tel:+4733378901">+47 333 78 901</a>
+                        </li>
+                        <li>
+                            <a href="mailto:cervacvlad32@gmail.com">cervacvlad32@gmail.com</a>
+                        </li>
+                    </ul>
+            <div class="rights">
+                <p>
+                    &#169 Все права защищены
+                </p>
+            </div>
+            </div>
+       </div> 
+  <!-- Footer -->
 </body>
 </html>
